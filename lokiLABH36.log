@@ -1,0 +1,995 @@
+20160907T22:37:15Z Host.Local LOKI: Starting Loki Scan SYSTEM: Host.Local TIME: 20160907T22:37:15Z PLATFORM: windows
+20160907T22:37:15Z Host.Local LOKI: File Name Characteristics initialized with 1073 regex patterns
+20160907T22:37:15Z Host.Local LOKI: C2 server indicators initialized with 13426 elements
+20160907T22:37:15Z Host.Local LOKI: Malicious MD5 Hashes initialized with 9034 hashes
+20160907T22:37:15Z Host.Local LOKI: Malicious SHA1 Hashes initialized with 3102 hashes
+20160907T22:37:15Z Host.Local LOKI: Malicious SHA256 Hashes initialized with 6133 hashes
+20160907T22:37:15Z Host.Local LOKI: False Positive Hashes initialized with 30 hashes
+20160907T22:37:15Z Host.Local LOKI: Processing YARA rules folder C:\Users\cliccuser\Desktop\Loki-master\./signature-base/yara
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_alienspy_rat.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_apt17_malware.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_apt28.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_apt30_backspace.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_apt6_malware.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_backdoor_ssh_python.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_backspace.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_between-hk-and-burma.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_blackenergy.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_blackenergy_installer.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_bluetermite_emdivi.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_casper.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_cheshirecat.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_cloudduke.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_codoso.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_coreimpact_agent.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_cve2015_5119.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_deeppanda.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_derusbi.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_emissary.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_fakem_backdoor.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_fidelis_phishing_plain_sight.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_four_element_sword.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_glassRAT.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_hackingteam_rules.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_hellsing_kaspersky.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_hizor_rat.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_indetectables_rat.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_inocnation.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_irontiger.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_irontiger_trendmicro.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_kaspersky_duqu2.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_keylogger_cn.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_korplug_fast.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_laudanum_webshells.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_miniasp.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_minidionis.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_naikon.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_nanocore_rat.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_op_cleaver.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_passthehashtoolkit.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_poisonivy.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_poisonivy_gen3.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_poseidon_group.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_project_m.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_putterpanda.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_quarkspwdump.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_rocketkitten_keylogger.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_rwmc_powershell_creddump.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_scanbox_deeppanda.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_seaduke_unit42.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_shamoon.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_skeletonkey.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_snowglobe_babar.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_sofacy_dec15.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_sofacy_fysbis.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_sofacy_xtunnel_bundestag.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_sphinx_moth.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_terracotta.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_terracotta_liudoor.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_threatgroup_3390.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_turbo_campaign.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_unit78020_malware.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_volatile_cedar.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_waterbug.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_webshell_chinachopper.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_wildneutron.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_winnti.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from apt_woolengoldfish.yar
+20160907T22:37:15Z Host.Local LOKI: Initialized Yara rules from cn_pentestset_scripts.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from cn_pentestset_tools.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from cn_pentestset_webshells.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from crime_antifw_installrex.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from crime_bernhard_pos.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from crime_buzus_softpulse.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from crime_cmstar.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from crime_cryptowall_svg.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from crime_dexter_trojan.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from crime_dridex_xml.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from crime_enfal.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from crime_fareit.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from crime_kins_dropper.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from crime_kraken_bot1.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from crime_locky.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from crime_malumpos.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from crime_malware_generic.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from crime_mikey_trojan.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from crime_petya_ransom.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from crime_phish_gina_dec15.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from crime_rombertik_carbongrabber.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from crime_shifu_trojan.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from crime_upatre_oct15.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from exploit_cve_2015_1674.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from exploit_cve_2015_1701.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from exploit_cve_2015_2426.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from exploit_uac_elevators.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from general_cloaking.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from general_officemacros.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from generic_anomalies.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from generic_cryptors.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from generic_dumps.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from generic_exe2hex_payload.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from gen_ace_with_exe.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from gen_cn_hacktools.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from gen_cn_hacktool_scripts.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from gen_cn_webshells.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from gen_faked_versions.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from gen_gpp_cpassword.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from gen_metasploit_loader_rsmudge.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from gen_powerkatz.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from gen_powershell_empire.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from gen_regsrv32_issue.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from gen_tempracer.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from gen_thumbs_cloaking.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from gen_winshells.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from pup_lightftp.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from spy_equation_fiveeyes.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from spy_querty_fiveeyes.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from spy_regin_fiveeyes.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from thor-hacktools.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from thor-webshells.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from thor_inverse_matches.yar
+20160907T22:37:16Z Host.Local LOKI: Initialized Yara rules from threat_lenovo_superfish.yar
+20160907T22:37:16Z Host.Local LOKI: Current user has admin rights - very good
+20160907T22:37:16Z Host.Local LOKI: Setting LOKI process with PID: 6780 to priority IDLE
+20160907T22:37:17Z Host.Local LOKI: Skipping Process PID: 0 NAME: System Idle Process CMD: N/A
+20160907T22:37:17Z Host.Local LOKI: Skipping Process PID: 4 NAME: System CMD: N/A
+20160907T22:37:17Z Host.Local LOKI: Scanning Process PID: 508 NAME: smss.exe CMD: N/A
+20160907T22:37:17Z Host.Local LOKI: Error while process memory Yara check (maybe the process doesn't exist anymore or access denied). PID: 508 NAME: smss.exe
+20160907T22:37:17Z Host.Local LOKI: Scanning Process PID: 636 NAME: csrss.exe CMD: N/A
+20160907T22:37:17Z Host.Local LOKI: Error while process memory Yara check (maybe the process doesn't exist anymore or access denied). PID: 636 NAME: csrss.exe
+20160907T22:37:17Z Host.Local LOKI: Scanning Process PID: 708 NAME: wininit.exe CMD: wininit.exe
+20160907T22:37:18Z Host.Local LOKI: Listening process PID: 708 NAME: wininit.exe COMMAND: wininit.exe IP: 0.0.0.0 PORT: 49152
+20160907T22:37:18Z Host.Local LOKI: Listening process PID: 708 NAME: wininit.exe COMMAND: wininit.exe IP: :: PORT: 49152
+20160907T22:37:18Z Host.Local LOKI: Scanning Process PID: 724 NAME: csrss.exe CMD: N/A
+20160907T22:37:18Z Host.Local LOKI: Error while process memory Yara check (maybe the process doesn't exist anymore or access denied). PID: 724 NAME: csrss.exe
+20160907T22:37:18Z Host.Local LOKI: Scanning Process PID: 776 NAME: winlogon.exe CMD: winlogon.exe
+20160907T22:37:18Z Host.Local LOKI: Scanning Process PID: 792 NAME: services.exe CMD: N/A
+20160907T22:37:18Z Host.Local LOKI: Listening process PID: 792 NAME: services.exe COMMAND: None IP: :: PORT: 49165
+20160907T22:37:18Z Host.Local LOKI: Listening process PID: 792 NAME: services.exe COMMAND: None IP: 0.0.0.0 PORT: 49165
+20160907T22:37:18Z Host.Local LOKI: Scanning Process PID: 808 NAME: lsass.exe CMD: C:\Windows\system32\lsass.exe
+20160907T22:37:18Z Host.Local LOKI: Listening process PID: 808 NAME: lsass.exe COMMAND: C:\Windows\system32\lsass.exe IP: 0.0.0.0 PORT: 49156
+20160907T22:37:18Z Host.Local LOKI: Listening process PID: 808 NAME: lsass.exe COMMAND: C:\Windows\system32\lsass.exe IP: :: PORT: 49166
+20160907T22:37:18Z Host.Local LOKI: Listening process PID: 808 NAME: lsass.exe COMMAND: C:\Windows\system32\lsass.exe IP: :: PORT: 49156
+20160907T22:37:18Z Host.Local LOKI: Listening process PID: 808 NAME: lsass.exe COMMAND: C:\Windows\system32\lsass.exe IP: 0.0.0.0 PORT: 49166
+20160907T22:37:18Z Host.Local LOKI: Scanning Process PID: 888 NAME: svchost.exe CMD: C:\Windows\system32\svchost.exe -k DcomLaunch
+20160907T22:37:18Z Host.Local LOKI: Scanning Process PID: 932 NAME: svchost.exe CMD: C:\Windows\system32\svchost.exe -k RPCSS
+20160907T22:37:18Z Host.Local LOKI: Listening process PID: 932 NAME: svchost.exe COMMAND: C:\Windows\system32\svchost.exe -k RPCSS IP: :: PORT: 135
+20160907T22:37:18Z Host.Local LOKI: Listening process PID: 932 NAME: svchost.exe COMMAND: C:\Windows\system32\svchost.exe -k RPCSS IP: 0.0.0.0 PORT: 135
+20160907T22:37:18Z Host.Local LOKI: Scanning Process PID: 1008 NAME: DFServ.exe CMD: "C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\DFServ.exe"
+20160907T22:38:02Z Host.Local LOKI: Scanning Process PID: 448 NAME: dwm.exe CMD: "dwm.exe"
+20160907T22:38:02Z Host.Local LOKI: Scanning Process PID: 956 NAME: atiesrxx.exe CMD: C:\Windows\system32\atiesrxx.exe
+20160907T22:38:05Z Host.Local LOKI: Scanning Process PID: 1048 NAME: svchost.exe CMD: C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted
+20160907T22:38:06Z Host.Local LOKI: Listening process PID: 1048 NAME: svchost.exe COMMAND: C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted IP: 0.0.0.0 PORT: 49153
+20160907T22:38:06Z Host.Local LOKI: Listening process PID: 1048 NAME: svchost.exe COMMAND: C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted IP: :: PORT: 49153
+20160907T22:38:06Z Host.Local LOKI: Scanning Process PID: 1088 NAME: svchost.exe CMD: C:\Windows\system32\svchost.exe -k netsvcs
+20160907T22:38:06Z Host.Local LOKI: Listening process PID: 1088 NAME: svchost.exe COMMAND: C:\Windows\system32\svchost.exe -k netsvcs IP: 0.0.0.0 PORT: 49154
+20160907T22:38:06Z Host.Local LOKI: Listening process PID: 1088 NAME: svchost.exe COMMAND: C:\Windows\system32\svchost.exe -k netsvcs IP: :: PORT: 49154
+20160907T22:38:06Z Host.Local LOKI: Scanning Process PID: 1136 NAME: svchost.exe CMD: C:\Windows\system32\svchost.exe -k LocalService
+20160907T22:38:06Z Host.Local LOKI: Scanning Process PID: 1176 NAME: svchost.exe CMD: C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted
+20160907T22:38:06Z Host.Local LOKI: Scanning Process PID: 1212 NAME: stacsv64.exe CMD: "C:\Program Files\IDT\WDM\STacSV64.exe"
+20160907T22:38:14Z Host.Local LOKI: Scanning Process PID: 1336 NAME: SavService.exe CMD: "C:\Program Files (x86)\Sophos\Sophos Anti-Virus\SavService.exe"
+20160907T22:38:14Z Host.Local LOKI: Scanning Process PID: 92 NAME: svchost.exe CMD: C:\Windows\system32\svchost.exe -k NetworkService
+20160907T22:38:14Z Host.Local LOKI: Listening process PID: 92 NAME: svchost.exe COMMAND: C:\Windows\system32\svchost.exe -k NetworkService IP: 0.0.0.0 PORT: 3389
+20160907T22:38:14Z Host.Local LOKI: Listening process PID: 92 NAME: svchost.exe COMMAND: C:\Windows\system32\svchost.exe -k NetworkService IP: :: PORT: 3389
+20160907T22:38:14Z Host.Local LOKI: Scanning Process PID: 1564 NAME: spoolsv.exe CMD: C:\Windows\System32\spoolsv.exe
+20160907T22:38:14Z Host.Local LOKI: Listening process PID: 1564 NAME: spoolsv.exe COMMAND: C:\Windows\System32\spoolsv.exe IP: :: PORT: 49155
+20160907T22:38:14Z Host.Local LOKI: Listening process PID: 1564 NAME: spoolsv.exe COMMAND: C:\Windows\System32\spoolsv.exe IP: 0.0.0.0 PORT: 49155
+20160907T22:38:14Z Host.Local LOKI: Scanning Process PID: 1656 NAME: svchost.exe CMD: C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork
+20160907T22:38:15Z Host.Local LOKI: Scanning Process PID: 1816 NAME: NetworkLicenseServer.exe CMD: "C:\Program Files (x86)\Common Files\ABBYY\FineReaderSprint\9.00\Licensing\NetworkLicenseServer.exe" -service
+20160907T22:38:47Z Host.Local LOKI: Scanning Process PID: 1836 NAME: AESTSr64.exe CMD: "C:\Program Files\IDT\WDM\AESTSr64.exe"
+20160907T22:38:48Z Host.Local LOKI: Scanning Process PID: 436 NAME: AGSService.exe CMD: "C:\Program Files (x86)\Common Files\Adobe\AdobeGCClient\AGSService.exe"
+20160907T22:39:21Z Host.Local LOKI: Scanning Process PID: 1560 NAME: AiSquared.Magnification.Service.exe CMD: "C:\Program Files (x86)\ZoomText 10.1\AiSquared.Magnification.Service.exe"
+20160907T22:39:22Z Host.Local LOKI: Scanning Process PID: 2216 NAME: AppleMobileDeviceService.exe CMD: "C:\Program Files\Common Files\Apple\Mobile Device Support\AppleMobileDeviceService.exe"
+20160907T22:39:22Z Host.Local LOKI: Established conenction PID: 2216 NAME: AppleMobileDeviceService.exe COMMAND: "C:\Program Files\Common Files\Apple\Mobile Device Support\AppleMobileDeviceService.exe" LIP: 127.0.0.1 LPORT: 27015 RIP: 127.0.0.1 RPORT: 49182
+20160907T22:39:22Z Host.Local LOKI: Listening process PID: 2216 NAME: AppleMobileDeviceService.exe COMMAND: "C:\Program Files\Common Files\Apple\Mobile Device Support\AppleMobileDeviceService.exe" IP: 127.0.0.1 PORT: 27015
+20160907T22:39:23Z Host.Local LOKI: Established conenction PID: 2216 NAME: AppleMobileDeviceService.exe COMMAND: "C:\Program Files\Common Files\Apple\Mobile Device Support\AppleMobileDeviceService.exe" LIP: 127.0.0.1 LPORT: 49161 RIP: 127.0.0.1 RPORT: 5354
+20160907T22:39:23Z Host.Local LOKI: Established conenction PID: 2216 NAME: AppleMobileDeviceService.exe COMMAND: "C:\Program Files\Common Files\Apple\Mobile Device Support\AppleMobileDeviceService.exe" LIP: 127.0.0.1 LPORT: 49157 RIP: 127.0.0.1 RPORT: 5354
+20160907T22:39:23Z Host.Local LOKI: Scanning Process PID: 2236 NAME: mDNSResponder.exe CMD: "C:\Program Files\Bonjour\mDNSResponder.exe"
+20160907T22:39:27Z Host.Local LOKI: Established conenction PID: 2236 NAME: mDNSResponder.exe COMMAND: "C:\Program Files\Bonjour\mDNSResponder.exe" LIP: 127.0.0.1 LPORT: 5354 RIP: 127.0.0.1 RPORT: 49157
+20160907T22:39:27Z Host.Local LOKI: Listening process PID: 2236 NAME: mDNSResponder.exe COMMAND: "C:\Program Files\Bonjour\mDNSResponder.exe" IP: 127.0.0.1 PORT: 5354
+20160907T22:39:28Z Host.Local LOKI: Established conenction PID: 2236 NAME: mDNSResponder.exe COMMAND: "C:\Program Files\Bonjour\mDNSResponder.exe" LIP: 127.0.0.1 LPORT: 5354 RIP: 127.0.0.1 RPORT: 49161
+20160907T22:39:28Z Host.Local LOKI: Scanning Process PID: 2280 NAME: svchost.exe CMD: C:\Windows\System32\svchost.exe -k utcsvc
+20160907T22:39:28Z Host.Local LOKI: Scanning Process PID: 2304 NAME: dasHost.exe CMD: dashost.exe {69e40b79-a579-440f-a57afb9bf63112f1}
+20160907T22:39:28Z Host.Local LOKI: Scanning Process PID: 2324 NAME: keyacc32.exe CMD: C:\Windows\keyacc32.exe
+20160907T22:39:28Z Host.Local LOKI: Scanning Process PID: 2392 NAME: LabStatsClient.exe CMD: "C:\Program Files (x86)\LabStatsGo\LabStatsClient.exe" 
+20160907T22:39:28Z Host.Local LOKI: Scanning Process PID: 2480 NAME: svchost.exe CMD: C:\Windows\System32\svchost.exe -k HPZ12
+20160907T22:39:28Z Host.Local LOKI: Scanning Process PID: 2524 NAME: CTskMstr.exe CMD: "C:\PROGRA~2\PHAROS~1\Core\CTskMstr.exe"
+20160907T22:40:03Z Host.Local LOKI: Listening process PID: 2524 NAME: CTskMstr.exe COMMAND: "C:\PROGRA~2\PHAROS~1\Core\CTskMstr.exe" IP: 0.0.0.0 PORT: 28201
+20160907T22:40:03Z Host.Local LOKI: Scanning Process PID: 2572 NAME: svchost.exe CMD: C:\Windows\System32\svchost.exe -k HPZ12
+20160907T22:40:03Z Host.Local LOKI: Scanning Process PID: 2616 NAME: _tgwinsvc_wrapper.exe CMD: "C:\Program Files\SASHome\SASTextAnalyticsDocumentConversion\14.1\_tgwinsvc_wrapper.exe"
+20160907T22:40:14Z Host.Local LOKI: Scanning Process PID: 2636 NAME: SAVAdminService.exe CMD: "C:\Program Files (x86)\Sophos\Sophos Anti-Virus\SAVAdminService.exe"
+20160907T22:40:48Z Host.Local LOKI: Scanning Process PID: 2644 NAME: java.exe CMD: "C:\Program Files\SASHome\SASPrivateJavaRuntimeEnvironment\9.4\jre\bin\java.exe" -cp document-conversion-server.jar;tika-without-encryption-1.1.jar com.teragram.fileconverter.Server --port 7111 --log "C:\Program Files\SASHome\SASTextAnalyticsDocumentConversion\14.1\document-conversion-server.log"
+20160907T22:40:49Z Host.Local LOKI: Established conenction PID: 2644 NAME: java.exe COMMAND: "C:\Program Files\SASHome\SASPrivateJavaRuntimeEnvironment\9.4\jre\bin\java.exe" -cp document-conversion-server.jar;tika-without-encryption-1.1.jar com.teragram.fileconverter.Server --port 7111 --log "C:\Program Files\SASHome\SASTextAnalyticsDocumentConversion\14.1\document-conversion-server.log" LIP: 127.0.0.1 LPORT: 49159 RIP: 127.0.0.1 RPORT: 49158
+20160907T22:40:49Z Host.Local LOKI: Listening process PID: 2644 NAME: java.exe COMMAND: "C:\Program Files\SASHome\SASPrivateJavaRuntimeEnvironment\9.4\jre\bin\java.exe" -cp document-conversion-server.jar;tika-without-encryption-1.1.jar com.teragram.fileconverter.Server --port 7111 --log "C:\Program Files\SASHome\SASTextAnalyticsDocumentConversion\14.1\document-conversion-server.log" IP: :: PORT: 7111
+20160907T22:40:49Z Host.Local LOKI: Established conenction PID: 2644 NAME: java.exe COMMAND: "C:\Program Files\SASHome\SASPrivateJavaRuntimeEnvironment\9.4\jre\bin\java.exe" -cp document-conversion-server.jar;tika-without-encryption-1.1.jar com.teragram.fileconverter.Server --port 7111 --log "C:\Program Files\SASHome\SASTextAnalyticsDocumentConversion\14.1\document-conversion-server.log" LIP: 127.0.0.1 LPORT: 49158 RIP: 127.0.0.1 RPORT: 49159
+20160907T22:40:49Z Host.Local LOKI: Listening process PID: 2644 NAME: java.exe COMMAND: "C:\Program Files\SASHome\SASPrivateJavaRuntimeEnvironment\9.4\jre\bin\java.exe" -cp document-conversion-server.jar;tika-without-encryption-1.1.jar com.teragram.fileconverter.Server --port 7111 --log "C:\Program Files\SASHome\SASTextAnalyticsDocumentConversion\14.1\document-conversion-server.log" IP: 0.0.0.0 PORT: 7111
+20160907T22:40:49Z Host.Local LOKI: Scanning Process PID: 2664 NAME: conhost.exe CMD: \??\C:\Windows\system32\conhost.exe 0x4
+20160907T22:40:49Z Host.Local LOKI: Scanning Process PID: 2716 NAME: SntpService.exe CMD: "C:\Program Files\Sophos\Sophos Network Threat Protection\bin\SntpService.exe"
+20160907T22:40:50Z Host.Local LOKI: Scanning Process PID: 2768 NAME: ManagementAgentNT.exe CMD: "C:\Program Files (x86)\Sophos\Remote Management System\ManagementAgentNT.exe" -service -name Agent -ORBListenEndpoints iiop://127.0.0.1
+20160907T22:41:32Z Host.Local LOKI: Established conenction PID: 2768 NAME: ManagementAgentNT.exe COMMAND: "C:\Program Files (x86)\Sophos\Remote Management System\ManagementAgentNT.exe" -service -name Agent -ORBListenEndpoints iiop://127.0.0.1 LIP: 127.0.0.1 LPORT: 49168 RIP: 127.0.0.1 RPORT: 49167
+20160907T22:41:32Z Host.Local LOKI: Listening process PID: 2768 NAME: ManagementAgentNT.exe COMMAND: "C:\Program Files (x86)\Sophos\Remote Management System\ManagementAgentNT.exe" -service -name Agent -ORBListenEndpoints iiop://127.0.0.1 IP: 127.0.0.1 PORT: 49172
+20160907T22:41:33Z Host.Local LOKI: Established conenction PID: 2768 NAME: ManagementAgentNT.exe COMMAND: "C:\Program Files (x86)\Sophos\Remote Management System\ManagementAgentNT.exe" -service -name Agent -ORBListenEndpoints iiop://127.0.0.1 LIP: 127.0.0.1 LPORT: 49172 RIP: 127.0.0.1 RPORT: 49173
+20160907T22:41:33Z Host.Local LOKI: Listening process PID: 2768 NAME: ManagementAgentNT.exe COMMAND: "C:\Program Files (x86)\Sophos\Remote Management System\ManagementAgentNT.exe" -service -name Agent -ORBListenEndpoints iiop://127.0.0.1 IP: 127.0.0.1 PORT: 49171
+20160907T22:41:33Z Host.Local LOKI: Established conenction PID: 2768 NAME: ManagementAgentNT.exe COMMAND: "C:\Program Files (x86)\Sophos\Remote Management System\ManagementAgentNT.exe" -service -name Agent -ORBListenEndpoints iiop://127.0.0.1 LIP: 192.168.201.1 LPORT: 49170 RIP: 192.168.201.1 RPORT: 8194
+20160907T22:41:34Z Host.Local LOKI: Established conenction PID: 2768 NAME: ManagementAgentNT.exe COMMAND: "C:\Program Files (x86)\Sophos\Remote Management System\ManagementAgentNT.exe" -service -name Agent -ORBListenEndpoints iiop://127.0.0.1 LIP: 127.0.0.1 LPORT: 49167 RIP: 127.0.0.1 RPORT: 49168
+20160907T22:41:34Z Host.Local LOKI: Scanning Process PID: 2928 NAME: ALsvc.exe CMD: "C:\Program Files (x86)\Sophos\AutoUpdate\ALsvc.exe" 
+20160907T22:42:01Z Host.Local LOKI: Scanning Process PID: 2992 NAME: RouterNT.exe CMD: "C:\Program Files (x86)\Sophos\Remote Management System\RouterNT.exe" -service -name Router -ORBListenEndpoints iiop://:8193/ssl_port=8194
+20160907T22:42:36Z Host.Local LOKI: Established conenction PID: 2992 NAME: RouterNT.exe COMMAND: "C:\Program Files (x86)\Sophos\Remote Management System\RouterNT.exe" -service -name Router -ORBListenEndpoints iiop://:8193/ssl_port=8194 LIP: 127.0.0.1 LPORT: 49162 RIP: 127.0.0.1 RPORT: 49163
+20160907T22:42:36Z Host.Local LOKI: Established conenction PID: 2992 NAME: RouterNT.exe COMMAND: "C:\Program Files (x86)\Sophos\Remote Management System\RouterNT.exe" -service -name Router -ORBListenEndpoints iiop://:8193/ssl_port=8194 LIP: 127.0.0.1 LPORT: 49173 RIP: 127.0.0.1 RPORT: 49172
+20160907T22:42:36Z Host.Local LOKI: Listening process PID: 2992 NAME: RouterNT.exe COMMAND: "C:\Program Files (x86)\Sophos\Remote Management System\RouterNT.exe" -service -name Router -ORBListenEndpoints iiop://:8193/ssl_port=8194 IP: 0.0.0.0 PORT: 8193
+20160907T22:42:36Z Host.Local LOKI: Listening process PID: 2992 NAME: RouterNT.exe COMMAND: "C:\Program Files (x86)\Sophos\Remote Management System\RouterNT.exe" -service -name Router -ORBListenEndpoints iiop://:8193/ssl_port=8194 IP: 0.0.0.0 PORT: 8194
+20160907T22:42:36Z Host.Local LOKI: Listening process PID: 2992 NAME: RouterNT.exe COMMAND: "C:\Program Files (x86)\Sophos\Remote Management System\RouterNT.exe" -service -name Router -ORBListenEndpoints iiop://:8193/ssl_port=8194 IP: 0.0.0.0 PORT: 8192
+20160907T22:42:36Z Host.Local LOKI: Established conenction PID: 2992 NAME: RouterNT.exe COMMAND: "C:\Program Files (x86)\Sophos\Remote Management System\RouterNT.exe" -service -name Router -ORBListenEndpoints iiop://:8193/ssl_port=8194 LIP: 127.0.0.1 LPORT: 49163 RIP: 127.0.0.1 RPORT: 49162
+20160907T22:42:37Z Host.Local LOKI: Established conenction PID: 2992 NAME: RouterNT.exe COMMAND: "C:\Program Files (x86)\Sophos\Remote Management System\RouterNT.exe" -service -name Router -ORBListenEndpoints iiop://:8193/ssl_port=8194 LIP: 192.168.201.1 LPORT: 8194 RIP: 192.168.201.1 RPORT: 49170
+20160907T22:42:37Z Host.Local LOKI: Scanning Process PID: 3028 NAME: swc_service.exe CMD: "C:\Program Files (x86)\Sophos\Sophos Anti-Virus\Web Control\swc_service.exe"
+20160907T22:43:04Z Host.Local LOKI: Scanning Process PID: 3056 NAME: ssp.exe CMD: "C:\Program Files (x86)\Sophos\Sophos System Protection\ssp.exe"
+20160907T22:43:34Z Host.Local LOKI: Scanning Process PID: 2852 NAME: swi_filter.exe CMD: "C:\Program Files (x86)\Sophos\Sophos Anti-Virus\Web Intelligence\swi_filter.exe"
+20160907T22:43:58Z Host.Local LOKI: Scanning Process PID: 3152 NAME: swi_fc.exe CMD: "C:\Program Files (x86)\Common Files\Sophos\Web Intelligence\swi_fc.exe" 2852 pipe 260 276
+20160907T22:44:27Z Host.Local LOKI: Listening process PID: 3152 NAME: swi_fc.exe COMMAND: "C:\Program Files (x86)\Common Files\Sophos\Web Intelligence\swi_fc.exe" 2852 pipe 260 276 IP: 127.0.0.1 PORT: 49160
+20160907T22:44:27Z Host.Local LOKI: Scanning Process PID: 3264 NAME: swi_service.exe CMD: "C:\Program Files (x86)\Sophos\Sophos Anti-Virus\Web Intelligence\swi_service.exe"
+20160907T22:44:27Z Host.Local LOKI: Scanning Process PID: 3372 NAME: vmnat.exe CMD: C:\WINDOWS\SYSWOW64\VMNAT.EXE
+20160907T22:44:53Z Host.Local LOKI: Scanning Process PID: 3404 NAME: WebUpdateSvc4.exe CMD: C:\Windows\SysWOW64\WebUpdateSvc4.exe
+20160907T22:45:35Z Host.Local LOKI: Scanning Process PID: 3452 NAME: ZoomTextHelperService.exe CMD: "C:\Program Files (x86)\ZoomText 10.1\ZoomTextHelperService.exe"
+20160907T22:45:42Z Host.Local LOKI: Scanning Process PID: 3488 NAME: CodeMeter.exe CMD: "C:\Program Files (x86)\CodeMeter\Runtime\bin\CodeMeter.exe"
+20160907T22:46:19Z Host.Local LOKI: Listening process PID: 3488 NAME: CodeMeter.exe COMMAND: "C:\Program Files (x86)\CodeMeter\Runtime\bin\CodeMeter.exe" IP: :: PORT: 22350
+20160907T22:46:19Z Host.Local LOKI: Listening process PID: 3488 NAME: CodeMeter.exe COMMAND: "C:\Program Files (x86)\CodeMeter\Runtime\bin\CodeMeter.exe" IP: 0.0.0.0 PORT: 22350
+20160907T22:46:19Z Host.Local LOKI: Scanning Process PID: 3580 NAME: vmware-authd.exe CMD: "C:\Program Files (x86)\VMware\VMware Player\vmware-authd.exe"
+20160907T22:47:09Z Host.Local LOKI: Listening process PID: 3580 NAME: vmware-authd.exe COMMAND: "C:\Program Files (x86)\VMware\VMware Player\vmware-authd.exe" IP: 0.0.0.0 PORT: 912
+20160907T22:47:09Z Host.Local LOKI: Listening process PID: 3580 NAME: vmware-authd.exe COMMAND: "C:\Program Files (x86)\VMware\VMware Player\vmware-authd.exe" IP: 0.0.0.0 PORT: 902
+20160907T22:47:09Z Host.Local LOKI: Scanning Process PID: 3668 NAME: WmiPrvSE.exe CMD: C:\Windows\system32\wbem\wmiprvse.exe
+20160907T22:47:09Z Host.Local LOKI: Scanning Process PID: 3780 NAME: vmnetdhcp.exe CMD: C:\WINDOWS\SYSWOW64\VMNETDHCP.EXE
+20160907T22:47:25Z Host.Local LOKI: Scanning Process PID: 3800 NAME: vmware-usbarbitrator64.exe CMD: "C:\Program Files (x86)\Common Files\VMware\USB\vmware-usbarbitrator64.exe"
+20160907T22:47:31Z Host.Local LOKI: Scanning Process PID: 4172 NAME: svchost.exe CMD: C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation
+20160907T22:47:31Z Host.Local LOKI: Scanning Process PID: 4356 NAME: svchost.exe CMD: C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted
+20160907T22:47:31Z Host.Local LOKI: Scanning Process PID: 4368 NAME: WUDFHost.exe CMD: "C:\Windows\System32\WUDFHost.exe" -HostGUID:{193a1820-d9ac-4997-8c55-be817523f6aa} -IoEventPortName:HostProcess-e23d7fe1-2b02-4265-badb-56ef9c1a58c2 -SystemEventPortName:HostProcess-1a4a5433-6da3-4118-b133-0a64832e87d6 -IoCancelEventPortName:HostProcess-7927a790-c9c2-423a-b66e-83840a22c071 -NonStateChangingEventPortName:HostProcess-e1a93e8f-07a8-455e-919f-1aff3b93e4c3 -ServiceSID:S-1-5-80-2652678385-582572993-1835434367-1344795993-749280709 -LifetimeId:45257022-7722-4076-958d-83981c7a5800 -DeviceGroupId:WudfDefaultDevicePool
+20160907T22:47:31Z Host.Local LOKI: Scanning Process PID: 5080 NAME: atieclxx.exe CMD: atieclxx
+20160907T22:47:36Z Host.Local LOKI: Scanning Process PID: 4600 NAME: svchost.exe CMD: N/A
+20160907T22:47:36Z Host.Local LOKI: Process 4600 does not exist anymore or cannot be accessed
+20160907T22:47:36Z Host.Local LOKI: svchost.exe process owner is suspicious PID: 4600 NAME: svchost.exe OWNER: unknown CMD: N/A PATH: none
+20160907T22:47:36Z Host.Local LOKI: Scanning Process PID: 4984 NAME: DFLocker64.exe CMD: "C:\Windows\TEMP\DFLocker64.exe"
+20160907T22:47:37Z Host.Local LOKI: Scanning Process PID: 4644 NAME: AtBroker.exe CMD: atbroker.exe
+20160907T22:47:37Z Host.Local LOKI: Scanning Process PID: 1368 NAME: explorer.exe CMD: C:\Windows\Explorer.EXE
+20160907T22:47:37Z Host.Local LOKI: Scanning Process PID: 4888 NAME: taskeng.exe CMD: taskeng.exe {635CA338-1EE6-4B2D-93A2-B271BAE0C387}
+20160907T22:47:37Z Host.Local LOKI: Scanning Process PID: 4908 NAME: taskhostex.exe CMD: taskhostex.exe 
+20160907T22:47:37Z Host.Local LOKI: Scanning Process PID: 3516 NAME: ZtUac64.exe CMD: "C:\Program Files (x86)\ZoomText 10.1\x64\ZtUac64.exe" logonDisabled 
+20160907T22:47:38Z Host.Local LOKI: Scanning Process PID: 5048 NAME: GoogleUpdate.exe CMD: "C:\Program Files (x86)\Google\Update\GoogleUpdate.exe" /c
+20160907T22:48:21Z Host.Local LOKI: Scanning Process PID: 4712 NAME: svchost.exe CMD: C:\Windows\System32\svchost.exe -k AppReadiness
+20160907T22:48:21Z Host.Local LOKI: Process 4712 does not exist anymore or cannot be accessed
+20160907T22:48:21Z Host.Local LOKI: svchost.exe process owner is suspicious PID: 4712 NAME: svchost.exe OWNER: unknown CMD: C:\Windows\System32\svchost.exe -k AppReadiness PATH: C:\Windows\System32\svchost.exe
+20160907T22:48:21Z Host.Local LOKI: Scanning Process PID: 3992 NAME: ChtIME.exe CMD: C:\Windows\System32\InputMethod\CHT\ChtIME.exe -Embedding
+20160907T22:48:21Z Host.Local LOKI: Scanning Process PID: 516 NAME: KorIME.exe CMD: C:\Windows\System32\InputMethod\KOR\KorIME.exe -Embedding
+20160907T22:48:21Z Host.Local LOKI: Scanning Process PID: 4228 NAME: ChsIME.exe CMD: C:\Windows\System32\InputMethod\CHS\ChsIME.exe -Embedding
+20160907T22:48:21Z Host.Local LOKI: Scanning Process PID: 628 NAME: JpnIME.exe CMD: C:\Windows\System32\InputMethod\JPN\JpnIME.exe -Embedding
+20160907T22:48:21Z Host.Local LOKI: Scanning Process PID: 5320 NAME: SearchIndexer.exe CMD: C:\Windows\system32\SearchIndexer.exe /Embedding
+20160907T22:48:22Z Host.Local LOKI: Scanning Process PID: 5388 NAME: SearchProtocolHost.exe CMD: "C:\Windows\system32\SearchProtocolHost.exe" Global\UsGthrFltPipeMssGthrPipe1_ Global\UsGthrCtrlFltPipeMssGthrPipe1 1 -2147483646 "Software\Microsoft\Windows Search" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)" "C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc" "DownLevelDaemon" 
+20160907T22:48:22Z Host.Local LOKI: Scanning Process PID: 5404 NAME: SearchFilterHost.exe CMD: "C:\Windows\system32\SearchFilterHost.exe" 0 580 584 592 65536 588 
+20160907T22:48:22Z Host.Local LOKI: Process 5404 does not exist anymore or cannot be accessed
+20160907T22:48:22Z Host.Local LOKI: Scanning Process PID: 5444 NAME: SearchProtocolHost.exe CMD: "C:\Windows\system32\SearchProtocolHost.exe" Global\UsGthrFltPipeMssGthrPipe_S-1-5-21-3680427274-3297644548-2439406477-10132_ Global\UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-3680427274-3297644548-2439406477-10132 1 -2147483646 "Software\Microsoft\Windows Search" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)" "C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc" "DownLevelDaemon"  "1"
+20160907T22:48:22Z Host.Local LOKI: Process 5444 does not exist anymore or cannot be accessed
+20160907T22:48:22Z Host.Local LOKI: Scanning Process PID: 5568 NAME: LabStatsUserSpace.exe CMD: "C:\Program Files (x86)\LabStatsGo\LabStatsUserSpace.exe"
+20160907T22:48:23Z Host.Local LOKI: Established conenction PID: 5568 NAME: LabStatsUserSpace.exe COMMAND: "C:\Program Files (x86)\LabStatsGo\LabStatsUserSpace.exe" LIP: ::1 LPORT: 49180 RIP: ::1 RPORT: 10122
+20160907T22:48:23Z Host.Local LOKI: Scanning Process PID: 5620 NAME: rundll32.exe CMD: C:\Windows\System32\rundll32.exe shell32.dll,SHCreateLocalServerRunDll {9BA05972-F6A8-11CF-A442-00A0C90A8F39} -Embedding
+20160907T22:48:23Z Host.Local LOKI: Scanning Process PID: 5812 NAME: FrzState2k.exe CMD: "C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\_$Df\FrzState2k.exe" 0 106917
+20160907T22:48:23Z Host.Local LOKI: Scanning Process PID: 6012 NAME: WSHost.exe CMD: C:\Windows\WinStore\WSHost.exe -Embedding
+20160907T22:48:23Z Host.Local LOKI: Process 6012 does not exist anymore or cannot be accessed
+20160907T22:48:23Z Host.Local LOKI: Scanning Process PID: 5136 NAME: audiodg.exe CMD: N/A
+20160907T22:48:23Z Host.Local LOKI: Process 5136 does not exist anymore or cannot be accessed
+20160907T22:48:23Z Host.Local LOKI: Scanning Process PID: 5140 NAME: iTunesHelper.exe CMD: "C:\Program Files\iTunes\iTunesHelper.exe" 
+20160907T22:48:24Z Host.Local LOKI: Established conenction PID: 5140 NAME: iTunesHelper.exe COMMAND: "C:\Program Files\iTunes\iTunesHelper.exe"  LIP: 127.0.0.1 LPORT: 49182 RIP: 127.0.0.1 RPORT: 27015
+20160907T22:48:24Z Host.Local LOKI: Scanning Process PID: 4996 NAME: sttray64.exe CMD: "C:\Program Files\IDT\WDM\sttray64.exe" 
+20160907T22:48:24Z Host.Local LOKI: Scanning Process PID: 6172 NAME: iexplore.exe CMD: "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\iexplore.exe" 
+20160907T22:48:24Z Host.Local LOKI: Scanning Process PID: 6216 NAME: kass.exe CMD: "C:\Windows\kass.exe" 
+20160907T22:48:52Z Host.Local LOKI: Scanning Process PID: 6240 NAME: ALMon.exe CMD: "C:\Program Files (x86)\Sophos\AutoUpdate\ALMon.exe" 
+20160907T22:48:52Z Host.Local LOKI: Scanning Process PID: 6444 NAME: iPodService.exe CMD: "C:\Program Files\iPod\bin\iPodService.exe"
+20160907T22:48:52Z Host.Local LOKI: Scanning Process PID: 1328 NAME: acrotray.exe CMD: "C:\Program Files (x86)\Adobe\Acrobat 2015\Acrobat\AcroTray.exe" 
+20160907T22:49:25Z Host.Local LOKI: Scanning Process PID: 5168 NAME: cmd.exe CMD: "C:\Windows\system32\cmd.exe" 
+20160907T22:49:26Z Host.Local LOKI: Scanning Process PID: 3368 NAME: conhost.exe CMD: \??\C:\Windows\system32\conhost.exe 0x4
+20160907T22:49:26Z Host.Local LOKI: Scanning Process PID: 5008 NAME: loki.exe CMD: loki
+20160907T22:49:32Z Host.Local LOKI: Skipping LOKI Process PID: 6780 NAME: loki.exe CMD: loki
+20160907T22:49:32Z Host.Local LOKI: Scanning Process PID: 2440 NAME: WmiPrvSE.exe CMD: C:\Windows\sysWOW64\wbem\wmiprvse.exe -Embedding
+20160907T22:49:47Z Host.Local LOKI: Scanning C:\ ...  
+20160907T22:52:38Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Adobe\Adobe After Effects CS6\Support Files\Required\ScriptUIFlexServer.swf
+20160907T22:53:06Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Adobe\Adobe Bridge CS6 (64 Bit)\FLVHarness\FLVHarness.swf
+20160907T22:53:06Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Adobe\Adobe Bridge CS6 (64 Bit)\HTMLHarness\HTMLharness.swf
+20160907T22:53:15Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Adobe\Adobe Bridge CS6 (64 Bit)\photodownloader\apd\shared_assets\playflv\flvHarness.swf
+20160907T22:53:18Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Adobe\Adobe Bridge CS6 (64 Bit)\PublishPanel\PublishPanel.swf
+20160907T22:55:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Adobe\Adobe Encore CS6\Required\EncoreSWF.swf
+20160907T22:55:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Adobe\Adobe Encore CS6\Required\FlashDVD.swf
+20160907T22:55:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Adobe\Adobe Encore CS6\Required\ScriptUIFlexServer.swf
+20160907T22:55:05Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Adobe\Adobe Encore CS6\Required\ScriptUIShellStyles.swf
+20160907T22:55:05Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Adobe\Adobe Encore CS6\Required\ResourceCentral\ResourceCentral.swf
+20160907T22:55:50Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats\AIFXGViewer.swf
+20160907T22:57:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Support Files\Contents\Windows\ScriptUIFlexServer.swf
+20160907T22:59:50Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Adobe\Adobe Photoshop CS6 (64 Bit)\Presets\Flash 3D\Flash3DViewer.swf
+20160907T22:59:57Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Adobe\Adobe Photoshop CS6 (64 Bit)\Presets\Zoomify\zoomifyViewer.swf
+20160907T22:59:59Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Adobe\Adobe Photoshop CS6 (64 Bit)\Required\Plug-Ins\Extensions\ScriptUIFlexPhotoshop.swf
+20160907T22:59:59Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Adobe\Adobe Photoshop CS6 (64 Bit)\Required\Plug-Ins\Extensions\ScriptUIFlexServer.swf
+20160907T23:04:36Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Common Files\Adobe\Bridge CS6 Extensions\Adobe Output Module\mediagallery\resources\airtightgallery\autoviewer\viewer.swf
+20160907T23:04:36Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Common Files\Adobe\Bridge CS6 Extensions\Adobe Output Module\mediagallery\resources\airtightgallery\postcardviewer\viewer.swf
+20160907T23:04:36Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Common Files\Adobe\Bridge CS6 Extensions\Adobe Output Module\mediagallery\resources\airtightgallery\simpleviewer\viewer.swf
+20160907T23:04:36Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Common Files\Adobe\Bridge CS6 Extensions\Adobe Output Module\mediagallery\resources\flashgallery\gallery.swf
+20160907T23:04:36Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Common Files\Adobe\Bridge CS6 Extensions\Adobe Output Module\mediagallery\resources\flashgallery\loading.swf
+20160907T23:04:36Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\Common Files\Adobe\Bridge CS6 Extensions\Adobe Output Module\mediagallery\resources\flashgallery\playerProductInstall.swf
+20160907T23:29:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\MATLAB\R2013a\toolbox\matlab\demos\html\GettingStartedwithMATLAB_controller.swf
+20160907T23:29:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\MATLAB\R2013a\toolbox\matlab\demos\html\ja\GettingStartedwithMATLAB_controller.swf
+20160907T23:45:40Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\MiKTeX 2.9\tex\latex\acroflex\AcroFlex.swf
+20160907T23:45:49Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\MiKTeX 2.9\tex\latex\flashmovie\player_flv_maxi.swf
+20160907T23:45:49Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\MiKTeX 2.9\tex\latex\fldigigal\fdg_ht1.swf
+20160907T23:45:49Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\MiKTeX 2.9\tex\latex\fldigigal\fdg_nt1.swf
+20160907T23:45:49Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\MiKTeX 2.9\tex\latex\fldigigal\fdg_vt1.swf
+20160907T23:45:54Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\MiKTeX 2.9\tex\latex\media9\players\APlayer.swf
+20160907T23:45:54Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\MiKTeX 2.9\tex\latex\media9\players\APlayer9.swf
+20160907T23:45:55Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\MiKTeX 2.9\tex\latex\media9\players\StrobeMediaPlayback.swf
+20160907T23:45:55Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\MiKTeX 2.9\tex\latex\media9\players\VPlayer.swf
+20160907T23:45:56Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\MiKTeX 2.9\tex\latex\media9\players\VPlayer9.swf
+20160907T23:46:05Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\MiKTeX 2.9\tex\latex\yt4pdf\pdf_tube_basic.swf
+20160907T23:47:23Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\ORA-NetScenes-lite-triall-iw-64\include\OraFiles\charts\FCF_Column3D.swf
+20160907T23:47:23Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\ORA-NetScenes-lite-triall-iw-64\include\OraFiles\charts\FCF_MSLine.swf
+20160907T23:53:37Z Host.Local LOKI: Yara Rule MATCH: Base64_encoded_Executable TYPE: UNIX SCRIPT DESCRIPTION: Detects an base64 encoded executable (often embedded) FILE: C:\Program Files\QGIS Wien\apps\Python27\Lib\site-packages\wx-2.8-msw-unicode\wx\tools\Editra\src\ebmlib\_winrecycle.py FIRST_BYTES: 23212f7573722f62696e2f656e7620707974686f / #!/usr/bin/env pytho MD5: 2dfc2ad61c824a5f0fb61aef97923bf4 SHA1: 8dadf17f1941eb292ef845a647be8d5ef329a295 SHA256: 9c8561d720a38236ac46a30120a4dfa7bc9e37f3513268b43c9b26ca4ddd6f29 MATCHES: Str1: TVqQAAMAAAAEAAAA//8AALgAAAA
+20160907T23:54:42Z Host.Local LOKI: Yara Rule MATCH: HScan_v1_20_oncrpc TYPE: EXE DESCRIPTION: Chinese Hacktool Set - file oncrpc.dll FILE: C:\Program Files\QGIS Wien\bin\gltpd.exe FIRST_BYTES: 4d5a90000300000004000000ffff0000b8000000 / MZ MD5: 4255d93bc54de3a1685442fc8635b499 SHA1: c56a1fa90ffa113f7b04c16f88ee1d4a407c24ad SHA256: 8c0535f9593b95e441722f2ee505a0cb4a2d3b2f920dcb90a34f4e0c3c1a11cc MATCHES: Str1: svctcp_.c - cannot getsockname or listen Str2: too many connections (%d), compilation constant FD_SETSIZE was only %d Str3: svc_run:  ... (truncated)
+20160907T23:55:52Z Host.Local LOKI: File Name IOC matched PATTERN: \\[a-zA-Z]\.exe$ DESC: Typical Malware Name MATCH: C:\Program Files\R\R-3.1.0\bin\R.exe
+20160907T23:55:52Z Host.Local LOKI: File Name IOC matched PATTERN: \\[a-zA-Z]\.exe$ DESC: Typical Malware Name MATCH: C:\Program Files\R\R-3.1.0\bin\i386\R.exe
+20160907T23:55:54Z Host.Local LOKI: File Name IOC matched PATTERN: \\[a-zA-Z]\.exe$ DESC: Typical Malware Name MATCH: C:\Program Files\R\R-3.1.0\bin\x64\R.exe
+20160907T23:58:03Z Host.Local LOKI: File Name IOC matched PATTERN: \\[a-zA-Z]\.exe$ DESC: Typical Malware Name MATCH: C:\Program Files\R\R-3.2.3\bin\R.exe
+20160907T23:58:03Z Host.Local LOKI: File Name IOC matched PATTERN: \\[a-zA-Z]\.exe$ DESC: Typical Malware Name MATCH: C:\Program Files\R\R-3.2.3\bin\i386\R.exe
+20160907T23:58:05Z Host.Local LOKI: File Name IOC matched PATTERN: \\[a-zA-Z]\.exe$ DESC: Typical Malware Name MATCH: C:\Program Files\R\R-3.2.3\bin\x64\R.exe
+20160908T00:05:44Z Host.Local LOKI: File Name IOC matched PATTERN: \\cleanup\.exe$ DESC: ThreatExpert Statistics MATCH: C:\Program Files\SASHome\InstallMisc\9.4\cleanup.exe
+20160908T00:30:16Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASHelpViewerfortheWeb\9.43\Static\wars\sas.webdoc\scripts\dojox\av\resources\audio.swf
+20160908T00:30:16Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASHelpViewerfortheWeb\9.43\Static\wars\sas.webdoc\scripts\dojox\av\resources\video.swf
+20160908T00:30:27Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASHelpViewerfortheWeb\9.43\Static\wars\sas.webdoc\scripts\dojox\form\resources\fileuploader.swf
+20160908T00:30:27Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASHelpViewerfortheWeb\9.43\Static\wars\sas.webdoc\scripts\dojox\form\resources\uploader.swf
+20160908T00:30:36Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASHelpViewerfortheWeb\9.43\Static\wars\sas.webdoc\scripts\dojox\storage\Storage.swf
+20160908T00:30:36Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASHelpViewerfortheWeb\9.43\Static\wars\sas.webdoc\scripts\dojox\storage\storage_dialog.swf
+20160908T00:32:14Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASStudioBasic\3.4\war\resources\js\dojo\dojox\av\resources\audio.swf
+20160908T00:32:14Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASStudioBasic\3.4\war\resources\js\dojo\dojox\av\resources\video.swf
+20160908T00:32:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASStudioBasic\3.4\war\resources\js\dojo\dojox\form\resources\fileuploader.swf
+20160908T00:32:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASStudioBasic\3.4\war\resources\js\dojo\dojox\form\resources\uploader.swf
+20160908T00:32:32Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASStudioBasic\3.4\war\resources\js\dojo\dojox\storage\Storage.swf
+20160908T00:32:32Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASStudioBasic\3.4\war\resources\js\dojo\dojox\storage\storage_dialog.swf
+20160908T00:34:43Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASStudioSingleUser\3.4\war\resources\js\dojo\dojox\av\resources\audio.swf
+20160908T00:34:43Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASStudioSingleUser\3.4\war\resources\js\dojo\dojox\av\resources\video.swf
+20160908T00:34:55Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASStudioSingleUser\3.4\war\resources\js\dojo\dojox\embed\tests\resources\hfp.swf
+20160908T00:34:55Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASStudioSingleUser\3.4\war\resources\js\dojo\dojox\embed\tests\resources\TestFlash.swf
+20160908T00:34:56Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASStudioSingleUser\3.4\war\resources\js\dojo\dojox\flash\tests\TestFlash.swf
+20160908T00:34:57Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASStudioSingleUser\3.4\war\resources\js\dojo\dojox\form\resources\fileuploader.swf
+20160908T00:34:57Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASStudioSingleUser\3.4\war\resources\js\dojo\dojox\form\resources\uploader.swf
+20160908T00:34:59Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASStudioSingleUser\3.4\war\resources\js\dojo\dojox\gfx\tests\svgweb\svgweb\src\svg.swf
+20160908T00:35:17Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASStudioSingleUser\3.4\war\resources\js\dojo\dojox\storage\Storage.swf
+20160908T00:35:17Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files\SASHome\SASStudioSingleUser\3.4\war\resources\js\dojo\dojox\storage\storage_dialog.swf
+20160908T00:57:56Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Acrobat 2015\Acrobat\Multimedia Skins\SkinOverAllNoFullNoCaption.swf
+20160908T00:57:56Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Acrobat 2015\Acrobat\Multimedia Skins\SkinOverAllNoVolNoCaptionNoFull.swf
+20160908T00:57:56Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Acrobat 2015\Acrobat\Multimedia Skins\SkinOverPlay.swf
+20160908T00:57:56Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Acrobat 2015\Acrobat\Multimedia Skins\SkinOverPlayMute.swf
+20160908T00:57:56Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Acrobat 2015\Acrobat\Multimedia Skins\SkinOverPlaySeekMute.swf
+20160908T00:57:56Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Acrobat 2015\Acrobat\Multimedia Skins\SkinOverPlaySeekStop.swf
+20160908T00:57:56Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Acrobat 2015\Acrobat\Multimedia Skins\SkinOverPlayStopSeekMuteVol.swf
+20160908T00:57:56Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Acrobat 2015\Acrobat\Multimedia Skins\Players\VideoPlayer.swf
+20160908T00:58:28Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Acrobat 2015\Acrobat\WebPublish\BootStrapLoader.swf
+20160908T00:58:28Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Acrobat 2015\Acrobat\WebPublish\NavViewerWebApp.swf
+20160908T00:58:29Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Acrobat 2015\Acrobat\WebPublish\Preview.swf
+20160908T01:00:39Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Bridge CS6\apd\shared_assets\playflv\flvHarness.swf
+20160908T01:00:39Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Bridge CS6\FLVHarness\FLVHarness.swf
+20160908T01:00:39Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Bridge CS6\HTMLHarness\HTMLharness.swf
+20160908T01:00:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Bridge CS6\PublishPanel\PublishPanel.swf
+20160908T01:01:33Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Dreamweaver CS6\configuration\Content\Welcome\Flash\welcome.swf
+20160908T01:01:33Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Dreamweaver CS6\configuration\Content\Welcome\Flash\resources\defaultdynswf.swf
+20160908T01:01:50Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Dreamweaver CS6\configuration\Shared\Flash\expressInstall.swf
+20160908T01:01:51Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Dreamweaver CS6\configuration\Shared\MM\Media\FLVLoader.swf
+20160908T01:01:57Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Dreamweaver CS6\configuration\Templates\Video_Player\FLVPlayer_Progressive.swf
+20160908T01:01:57Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Dreamweaver CS6\configuration\Templates\Video_Player\FLVPlayer_Streaming.swf
+20160908T01:02:17Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Extension Manager CS6\ExMan.swf
+20160908T01:02:46Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Command Panels\Align.swf
+20160908T01:02:46Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Command Panels\Auto Shape Properties.swf
+20160908T01:02:47Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Command Panels\Path.swf
+20160908T01:02:47Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Command Panels\Symbol Properties.swf
+20160908T01:02:48Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Command Panels\Others\Color Palette.swf
+20160908T01:02:48Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Command Panels\Others\Image Editing.swf
+20160908T01:02:48Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Command Panels\Others\Special Characters.swf
+20160908T01:02:49Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Commands\Create Symbol Script.swf
+20160908T01:02:49Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Commands\Demo Current Document.swf
+20160908T01:02:49Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Commands\demo_player.fss
+20160908T01:02:49Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Commands\Resize Selected Objects.swf
+20160908T01:02:49Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Commands\Creative\Add Arrowheads.swf
+20160908T01:02:50Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Commands\Creative\Add Picture Frame.swf
+20160908T01:02:50Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Commands\Creative\Auto Vector Mask.swf
+20160908T01:02:50Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Commands\Creative\Twist and Fade.swf
+20160908T01:02:51Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Commands\Document\Reverse States.swf
+20160908T01:02:51Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Commands\players\dream_green\slideshow.sw_
+20160908T01:02:51Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Commands\players\dw_webphotoalbum\dw_webphotoalbum.fap
+20160908T01:02:51Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Commands\players\dw_webphotoalbum\dw_webphotoalbum.sw_
+20160908T01:02:52Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Commands\players\player\player_black.fap
+20160908T01:02:52Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Commands\players\player\player_black.sw_
+20160908T01:02:52Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Commands\players\player\player_white.fap
+20160908T01:02:52Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Commands\players\player\player_white.sw_
+20160908T01:02:53Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Commands\players\sliver_silver\sliver_silver.sw_
+20160908T01:02:53Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\Configuration\Commands\Web\Create Shared Palette.swf
+20160908T01:02:57Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\English\Movies\imdShimLocal.swf
+20160908T01:02:57Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\English\Movies\shimLocal.swf
+20160908T01:02:57Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\English\Movies\startpage.swf
+20160908T01:02:57Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Fireworks CS6\English\Movies\resources\defaultdynswf.swf
+20160908T01:04:17Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flash.profiler_4.6.1.335153\as\10\ProfilerAgent.swf
+20160908T01:04:17Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flash.profiler_4.6.1.335153\as\11\ProfilerAgent.swf
+20160908T01:04:27Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.designview_4.6.1.335153\Player8\dvMain30.swf
+20160908T01:04:28Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.designview_4.6.1.335153\StyleViewSwf\cssView30.swf
+20160908T01:04:31Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.editorcore_4.6.1.335153\srcview\bin\playerProductInstall.swf
+20160908T01:04:31Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.editorcore_4.6.1.335153\srcview\bin\SourceTree.swf
+20160908T01:04:31Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.editorcore_4.6.1.335153\srcview4\bin\playerProductInstall.swf
+20160908T01:04:32Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.editorcore_4.6.1.335153\srcview4\bin\SourceTree.swf
+20160908T01:04:50Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\GuidedTourOfMobileApplication.swf
+20160908T01:04:50Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\de\welcome\playerProductInstall.swf
+20160908T01:04:50Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\de\welcome\styles_de_DE.swf
+20160908T01:04:50Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\de\welcome\welcome.swf
+20160908T01:04:51Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\de\welcome\scripts\expressInstall.swf
+20160908T01:04:52Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\de\welcome\video\SkinOverPlaySeekFullscreen.swf
+20160908T01:04:52Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\de\welcome\video\Scripts\expressInstall.swf
+20160908T01:04:52Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\fr\welcome\playerProductInstall.swf
+20160908T01:04:52Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\fr\welcome\styles_fr_FR.swf
+20160908T01:04:52Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\fr\welcome\welcome.swf
+20160908T01:04:53Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\fr\welcome\scripts\expressInstall.swf
+20160908T01:04:54Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\fr\welcome\video\SkinOverPlaySeekFullscreen.swf
+20160908T01:04:54Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\fr\welcome\video\Scripts\expressInstall.swf
+20160908T01:04:54Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\ja\welcome\playerProductInstall.swf
+20160908T01:04:54Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\ja\welcome\welcome.swf
+20160908T01:04:55Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\ja\welcome\scripts\expressInstall.swf
+20160908T01:04:55Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\ja\welcome\video\SkinOverPlaySeekFullscreen.swf
+20160908T01:04:55Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\ja\welcome\video\Scripts\expressInstall.swf
+20160908T01:04:55Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\ru\welcome\playerProductInstall.swf
+20160908T01:04:55Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\ru\welcome\styles_ru_RU.swf
+20160908T01:04:56Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\ru\welcome\welcome.swf
+20160908T01:04:57Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\ru\welcome\scripts\expressInstall.swf
+20160908T01:04:57Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\ru\welcome\video\SkinOverPlaySeekFullscreen.swf
+20160908T01:04:57Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\ru\welcome\video\Scripts\expressInstall.swf
+20160908T01:04:57Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\zh\welcome\playerProductInstall.swf
+20160908T01:04:57Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\zh\welcome\welcome.swf
+20160908T01:04:58Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\zh\welcome\scripts\expressInstall.swf
+20160908T01:04:58Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\zh\welcome\video\SkinOverPlaySeekFullscreen.swf
+20160908T01:04:58Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui.nl1_4.6.1.335153\nl\zh\welcome\video\Scripts\expressInstall.swf
+20160908T01:04:59Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui_4.6.1.335153\welcome\playerProductInstall.swf
+20160908T01:04:59Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui_4.6.1.335153\welcome\styles_en_US.swf
+20160908T01:04:59Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui_4.6.1.335153\welcome\welcome.swf
+20160908T01:05:00Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui_4.6.1.335153\welcome\scripts\expressInstall.swf
+20160908T01:05:01Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui_4.6.1.335153\welcome\video\GuidedTourOfMobileApplication.swf
+20160908T01:05:01Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui_4.6.1.335153\welcome\video\SkinOverPlaySeekFullscreen.swf
+20160908T01:05:01Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\eclipse\plugins\com.adobe.flexbuilder.ui_4.6.1.335153\welcome\video\Scripts\expressInstall.swf
+20160908T01:05:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\3.6.0\frameworks\javascript\fabridge\samples\app.swf
+20160908T01:05:42Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\3.6.0\frameworks\javascript\fabridge\samples\EmptySwf.swf
+20160908T01:05:42Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\3.6.0\frameworks\javascript\fabridge\samples\srcview\playerProductInstall.swf
+20160908T01:05:42Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\3.6.0\frameworks\javascript\fabridge\samples\srcview\SourceTree.swf
+20160908T01:05:46Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\3.6.0\frameworks\libs\air\applicationupdater.swf
+20160908T01:05:46Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\3.6.0\frameworks\libs\air\applicationupdater_ui.swf
+20160908T01:05:47Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\3.6.0\frameworks\projects\airframework\assets\Assets.swf
+20160908T01:05:48Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\3.6.0\frameworks\projects\framework\assets\Assets.swf
+20160908T01:05:50Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\3.6.0\frameworks\projects\haloclassic\assets\Assets.swf
+20160908T01:05:50Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\3.6.0\frameworks\rsls\datavisualization_3.6.0.16995.swf
+20160908T01:05:50Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\3.6.0\frameworks\rsls\framework_3.6.0.21751.swf
+20160908T01:05:51Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\3.6.0\frameworks\rsls\rpc_3.6.0.16995.swf
+20160908T01:05:51Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\3.6.0\frameworks\themes\AeonGraphical\AeonGraphical.swf
+20160908T01:05:58Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\3.6.0\templates\express-installation\playerProductInstall.swf
+20160908T01:05:58Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\3.6.0\templates\express-installation-with-history\playerProductInstall.swf
+20160908T01:06:01Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\javascript\fabridge\samples\app.swf
+20160908T01:06:01Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\javascript\fabridge\samples\EmptySwf.swf
+20160908T01:06:02Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\javascript\fabridge\samples\srcview\playerProductInstall.swf
+20160908T01:06:02Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\javascript\fabridge\samples\srcview\SourceTree.swf
+20160908T01:06:02Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\javascript\fabridge\samples\srcview\source\app.swf
+20160908T01:06:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\javascript\fabridge\samples\srcview\source\EmptySwf.swf
+20160908T01:06:06Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\libs\air\aircore.swf
+20160908T01:06:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\libs\air\applicationupdater.swf
+20160908T01:06:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\libs\air\applicationupdater_ui.swf
+20160908T01:06:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\libs\air\servicemonitor.swf
+20160908T01:06:27Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\projects\airframework\assets\Assets.swf
+20160908T01:06:28Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\projects\framework\assets\Assets.swf
+20160908T01:06:34Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\rsls\advancedgrids_4.6.0.23201.swf
+20160908T01:06:34Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\rsls\charts_4.6.0.23201.swf
+20160908T01:06:35Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\rsls\framework_4.6.0.23201.swf
+20160908T01:06:36Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\rsls\mx_4.6.0.23201.swf
+20160908T01:06:36Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\rsls\osmf_1.0.0.16316.swf
+20160908T01:06:37Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\rsls\rpc_4.6.0.23201.swf
+20160908T01:06:37Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\rsls\sparkskins_4.6.0.23201.swf
+20160908T01:06:37Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\rsls\spark_4.6.0.23201.swf
+20160908T01:06:38Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\rsls\spark_dmv_4.6.0.23201.swf
+20160908T01:06:39Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\rsls\textLayout_2.0.0.232.swf
+20160908T01:06:39Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\frameworks\themes\AeonGraphical\AeonGraphical.swf
+20160908T01:07:01Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\samples\badge\badge.swf
+20160908T01:07:02Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\samples\themes\arcade\src\assets\flex_skins.swf
+20160908T01:07:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\samples\themes\graphite\src\assets\flex_skins.swf
+20160908T01:07:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\samples\themes\zen\src\assets\flex_skins.swf
+20160908T01:07:05Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\templates\swfobject\playerProductInstall.swf
+20160908T01:07:32Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\AIR3.2\frameworks\libs\air\aircore.swf
+20160908T01:07:33Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\AIR3.2\frameworks\libs\air\applicationupdater.swf
+20160908T01:07:34Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\AIR3.2\frameworks\libs\air\applicationupdater_ui.swf
+20160908T01:07:34Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\AIR3.2\frameworks\libs\air\servicemonitor.swf
+20160908T01:07:45Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\AIR3.2\samples\badge\badge.swf
+20160908T01:07:46Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\AIR3.4\frameworks\libs\air\aircore.swf
+20160908T01:07:47Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\AIR3.4\frameworks\libs\air\applicationupdater.swf
+20160908T01:07:47Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\AIR3.4\frameworks\libs\air\applicationupdater_ui.swf
+20160908T01:07:47Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\AIR3.4\frameworks\libs\air\servicemonitor.swf
+20160908T01:08:02Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\AIR3.4\samples\badge\badge.swf
+20160908T01:08:02Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\CodeSnippetHUDPanel.swf
+20160908T01:08:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\DLFlashPanel.swf
+20160908T01:08:05Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\EE.dat
+20160908T01:08:06Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\StagePlayer.swf
+20160908T01:08:16Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\ActionScript 3.0\rsls\loader_animation.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\ArcticExternalAll.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\ArcticExternalNoVol.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\ArcticExternalPlayMute.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\ArcticExternalPlaySeekMute.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\ArcticOverAll.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\ArcticOverNoVol.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\ArcticOverPlayMute.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\ArcticOverPlaySeekMute.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\ClearExternalAll.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\ClearExternalNoVol.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\ClearExternalPlayMute.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\ClearExternalPlaySeekMute.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\ClearOverAll.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\ClearOverNoVol.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\ClearOverPlayMute.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\ClearOverPlaySeekMute.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\MojaveExternalAll.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\MojaveExternalNoVol.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\MojaveExternalPlayMute.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\MojaveExternalPlaySeekMute.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\MojaveOverAll.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\MojaveOverNoVol.swf
+20160908T01:08:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\MojaveOverPlayMute.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\MojaveOverPlaySeekMute.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\SteelExternalAll.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\SteelExternalNoVol.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\SteelExternalPlayMute.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\SteelExternalPlaySeekMute.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\SteelOverAll.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\SteelOverNoVol.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\SteelOverPlayMute.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 2.0\SteelOverPlaySeekMute.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\MinimaFlatCustomColorAll.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\MinimaFlatCustomColorPlayBackSeekCounterVolMute.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\MinimaFlatCustomColorPlayBackSeekCounterVolMuteFull.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\MinimaFlatCustomColorPlayBackSeekMute.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\MinimaSilverAll.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\MinimaSilverPlayBackSeekCounterVolMute.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\MinimaSilverPlayBackSeekCounterVolMuteFull.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\MinimaSilverPlayBackSeekMute.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\MinimaUnderPlayBackSeekCounterVolMuteFull.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\MinimaUnderPlayBackSeekCounterVolMuteNoFull.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinOverAll.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinOverAllNoCaption.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinOverAllNoFullNoCaption.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinOverAllNoFullscreen.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinOverAllNoVolNoCaptionNoFull.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinOverPlay.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinOverPlayCaption.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinOverPlayFullscreen.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinOverPlayMute.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinOverPlayMuteCaptionFull.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinOverPlaySeekCaption.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinOverPlaySeekFullscreen.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinOverPlaySeekMute.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinOverPlaySeekStop.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinOverPlayStopSeekCaptionVol.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinOverPlayStopSeekFullVol.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinOverPlayStopSeekMuteVol.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinUnderAll.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinUnderAllNoCaption.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinUnderAllNoFullNoCaption.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinUnderAllNoFullscreen.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinUnderAllNoVolNoCaptionNoFull.swf
+20160908T01:08:25Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinUnderPlay.swf
+20160908T01:08:26Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinUnderPlayCaption.swf
+20160908T01:08:26Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinUnderPlayFullscreen.swf
+20160908T01:08:26Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinUnderPlayMute.swf
+20160908T01:08:26Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinUnderPlayMuteCaptionFull.swf
+20160908T01:08:26Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinUnderPlaySeekCaption.swf
+20160908T01:08:26Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinUnderPlaySeekFullscreen.swf
+20160908T01:08:26Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinUnderPlaySeekMute.swf
+20160908T01:08:26Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinUnderPlaySeekStop.swf
+20160908T01:08:26Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinUnderPlayStopSeekCaptionVol.swf
+20160908T01:08:26Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinUnderPlayStopSeekFullVol.swf
+20160908T01:08:26Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\FLVPlayback Skins\ActionScript 3.0\SkinUnderPlayStopSeekMuteVol.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\bounce-in-3D.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\bounce-out-3D.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\bounce-smoosh.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\fly-in-blur-bottom.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\fly-in-blur-left.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\fly-in-blur-right.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\fly-in-blur-top.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\fly-in-bottom.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\fly-in-left.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\fly-in-right.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\fly-in-top.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\fly-out-bottom.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\fly-out-left.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\fly-out-right.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\fly-out-top.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\flyin-pause-flyout.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\large-bounce.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\med-bounce.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\multiple-bounce.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\pulse.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\small-bounce.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\smoke.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\spiral-3D.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\swoosh.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\text-scroll-3D.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\wave.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\zoom-in-2D.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\zoom-in-3D.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\zoom-out-2D.swf
+20160908T01:08:41Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Motion Presets\zoom-out-3D.swf
+20160908T01:08:42Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\Configuration\Simulator\SimController.swf
+20160908T01:08:45Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\First Run\StartPage\StartPage.swf
+20160908T01:08:45Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\First Run\StartPage\resources\defaultdynswf.swf
+20160908T01:08:45Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\First Run\WindowSWF\Code Snippets.swf
+20160908T01:08:45Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\Common\First Run\WindowSWF\Project.swf
+20160908T01:08:53Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Flash CS6\en_US\First Run\Behaviors\Transitions.swf
+20160908T01:09:42Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Illustrator CS6\Plug-ins\Illustrator Formats\AIFXGViewer.swf
+20160908T01:10:50Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Illustrator CS6\Support Files\Contents\Windows\ScriptUIFlexServer.swf
+20160908T01:11:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\BackgroundTasks.swf
+20160908T01:11:27Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Plug-Ins\Filters\(EBookExport Resources)\idrc_BBlb\1319.idrc
+20160908T01:11:27Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Plug-Ins\Filters\(EBookExport Resources)\idrc_BBlb\1320.idrc
+20160908T01:11:46Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Plug-Ins\PMPack\(PMWelcomeScreen Resources)\idrc_PNGA\1064.idrc
+20160908T01:12:02Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Flash Export\SWFPreview.swf
+20160908T01:12:02Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\appear.swf
+20160908T01:12:02Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\bounce-smoosh.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\dance.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\default.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\disappear.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\fade-in.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\fade-out.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\fly-in-blur-bottom.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\fly-in-blur-left.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\fly-in-blur-right.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\fly-in-blur-top.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\fly-in-bottom.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\fly-in-left.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\fly-in-right.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\fly-in-top.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\fly-out-bottom.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\fly-out-left.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\fly-out-right.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\fly-out-top.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\flyin-pause-flyout.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\flyin-stop-flyout.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\gallop.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\grow-big.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\grow.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\large-bounce.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\med-bounce.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\move-left-grow.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\move-left-shrink.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\move-left.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\move-right-grow.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\move-right-shrink.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\move-right.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\multiple-bounce.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\pulse.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\rotate180ccw.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\rotate180cw.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\rotate90ccw.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\rotate90cw.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\shrink.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\small-bounce.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\smoke.swf
+20160908T01:12:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\spring-left.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\spring-right.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\swoosh.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\twirl.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\wave.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\zoom-in-2D.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\motion presets\zoom-out-2D.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\VideoPlayer.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\FLVPlayback Skins\SkinOverAll.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\FLVPlayback Skins\SkinOverAllNoCaption.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\FLVPlayback Skins\SkinOverAllNoFullNoCaption.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\FLVPlayback Skins\SkinOverAllNoFullscreen.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\FLVPlayback Skins\SkinOverAllNoVolNoCaptionNoFull.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\FLVPlayback Skins\SkinOverPlay.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\FLVPlayback Skins\SkinOverPlayCaption.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\FLVPlayback Skins\SkinOverPlayFullscreen.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\FLVPlayback Skins\SkinOverPlayMute.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\FLVPlayback Skins\SkinOverPlayMuteCaptionFull.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\FLVPlayback Skins\SkinOverPlaySeekCaption.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\FLVPlayback Skins\SkinOverPlaySeekFullscreen.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\FLVPlayback Skins\SkinOverPlaySeekMute.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\FLVPlayback Skins\SkinOverPlaySeekStop.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\FLVPlayback Skins\SkinOverPlayStopSeekCaptionVol.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\FLVPlayback Skins\SkinOverPlayStopSeekFullVol.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\FLVPlayback Skins\SkinOverPlayStopSeekMuteVol.swf
+20160908T01:12:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\FLVPlayer\FLVPlayer.swf
+20160908T01:12:05Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\HTMLLoader\HTMLLoader.swf
+20160908T01:12:05Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\MP3Player\MP3Player.swf
+20160908T01:12:06Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\SWFPlayer\SWFPlayer.swf
+20160908T01:12:06Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\multimedia\VideoDecoder\VideoDecoder.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\blinds_horizontal_fast.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\blinds_horizontal_med.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\blinds_horizontal_slow.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\blinds_vertical_fast.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\blinds_vertical_med.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\blinds_vertical_slow.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\box_in_fast.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\box_in_med.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\box_in_slow.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\box_out_fast.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\box_out_med.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\box_out_slow.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\comb_horizontal_fast.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\comb_horizontal_med.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\comb_horizontal_slow.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\comb_vertical_fast.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\comb_vertical_med.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\comb_vertical_slow.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_down_fast.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_down_med.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_down_slow.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_leftdown_fast.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_leftdown_med.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_leftdown_slow.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_leftup_fast.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_leftup_med.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_leftup_slow.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_left_fast.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_left_med.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_left_slow.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_rightdown_fast.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_rightdown_med.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_rightdown_slow.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_rightup_fast.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_rightup_med.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_rightup_slow.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_right_fast.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_right_med.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_right_slow.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_up_fast.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_up_med.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\cover_up_slow.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\dissolve_fast.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\dissolve_med.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\dissolve_slow.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\fade_fast.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\fade_med.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\fade_slow.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\pageturn.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_down_fast.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_down_med.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_down_slow.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_leftdown_fast.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_leftdown_med.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_leftdown_slow.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_leftup_fast.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_leftup_med.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_leftup_slow.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_left_fast.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_left_med.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_left_slow.swf
+20160908T01:12:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_rightdown_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_rightdown_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_rightdown_slow.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_rightup_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_rightup_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_rightup_slow.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_right_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_right_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_right_slow.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_up_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_up_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\push_up_slow.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\split_horizontalin_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\split_horizontalin_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\split_horizontalin_slow.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\split_horizontalout_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\split_horizontalout_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\split_horizontalout_slow.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\split_verticalin_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\split_verticalin_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\split_verticalin_slow.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\split_verticalout_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\split_verticalout_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\split_verticalout_slow.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_down_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_down_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_down_slow.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_leftdown_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_leftdown_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_leftdown_slow.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_leftup_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_leftup_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_leftup_slow.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_left_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_left_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_left_slow.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_rightdown_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_rightdown_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_rightdown_slow.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_rightup_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_rightup_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_rightup_slow.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_right_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_right_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_right_slow.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_up_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_up_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\uncover_up_slow.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_down_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_down_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_down_slow.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_leftdown_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_leftdown_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_leftdown_slow.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_leftup_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_leftup_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_leftup_slow.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_left_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_left_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_left_slow.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_rightdown_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_rightdown_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_rightdown_slow.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_rightup_fast.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_rightup_med.swf
+20160908T01:12:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_rightup_slow.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_right_fast.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_right_med.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_right_slow.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_up_fast.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_up_med.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\wipe_up_slow.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_down_fast.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_down_med.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_down_slow.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_leftdown_fast.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_leftdown_med.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_leftdown_slow.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_leftup_fast.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_leftup_med.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_leftup_slow.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_left_fast.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_left_med.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_left_slow.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_rightdown_fast.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_rightdown_med.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_rightdown_slow.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_rightup_fast.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_rightup_med.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_rightup_slow.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_right_fast.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_right_med.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_right_slow.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_up_fast.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_up_med.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomin_up_slow.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_down_fast.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_down_med.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_down_slow.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_leftdown_fast.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_leftdown_med.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_leftdown_slow.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_leftup_fast.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_leftup_med.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_leftup_slow.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_left_fast.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_left_med.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_left_slow.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_rightdown_fast.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_rightdown_med.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_rightdown_slow.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_rightup_fast.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_rightup_med.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_rightup_slow.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_right_fast.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_right_med.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_right_slow.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_up_fast.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_up_med.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\Page Transitions\zoomout_up_slow.swf
+20160908T01:12:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe InDesign CS6\Presets\StartPage\en_US\defaultdynswf.swf
+20160908T01:13:22Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Photoshop CS6\Presets\Flash 3D\Flash3DViewer.swf
+20160908T01:13:28Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Photoshop CS6\Presets\Zoomify\zoomifyViewer.swf
+20160908T01:13:31Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Photoshop CS6\Required\Plug-Ins\Extensions\ScriptUIFlexPhotoshop.swf
+20160908T01:13:32Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Photoshop CS6\Required\Plug-Ins\Extensions\ScriptUIFlexServer.swf
+20160908T01:15:32Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Utilities - CS6\ExtendScript Toolkit CS6\Required\more\ESTK_HTML.swf
+20160908T01:15:35Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Utilities - CS6\ExtendScript Toolkit CS6\SDK\Samples\resources\ActionScriptDemo.swf
+20160908T01:15:35Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Adobe\Adobe Utilities - CS6\ExtendScript Toolkit CS6\SDK\Samples\resources\UsingFlashPlayer.swf
+20160908T01:27:47Z Host.Local LOKI: Yara Rule MATCH: Suspicious_Size_java_exe TYPE: EXE DESCRIPTION: Detects uncommon file size of java.exe FILE: C:\Program Files (x86)\Berkeley Madonna Inc\Berkeley Madonna\cmadonnawin\jre\bin\java.exe FIRST_BYTES: 4d5a90000300000004000000ffff0000b8000000 / MZ MD5: 9e0c87fc9797536eaff23ebfe05763cc SHA1: c1121bd40e51b9668c0fa6f12d1001d4a398636a SHA256: 3732ad44e26f547fc7edd120c34a3af1aeace7aaa838221defeef2dc7af16839 MATCHES: 
+20160908T01:28:04Z Host.Local LOKI: Yara Rule MATCH: Suspicious_Size_java_exe TYPE: EXE DESCRIPTION: Detects uncommon file size of java.exe FILE: C:\Program Files (x86)\Berkeley Madonna Inc\Berkeley Madonna 8\jre\bin\java.exe FIRST_BYTES: 4d5a90000300000004000000ffff0000b8000000 / MZ MD5: 9e0c87fc9797536eaff23ebfe05763cc SHA1: c1121bd40e51b9668c0fa6f12d1001d4a398636a SHA256: 3732ad44e26f547fc7edd120c34a3af1aeace7aaa838221defeef2dc7af16839 MATCHES: 
+20160908T01:28:59Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\Bridge CS6 Extensions\Adobe Output Module\mediagallery\resources\airtightgallery\autoviewer\viewer.swf
+20160908T01:28:59Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\Bridge CS6 Extensions\Adobe Output Module\mediagallery\resources\airtightgallery\postcardviewer\viewer.swf
+20160908T01:28:59Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\Bridge CS6 Extensions\Adobe Output Module\mediagallery\resources\airtightgallery\simpleviewer\viewer.swf
+20160908T01:28:59Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\Bridge CS6 Extensions\Adobe Output Module\mediagallery\resources\flashgallery\gallery.swf
+20160908T01:28:59Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\Bridge CS6 Extensions\Adobe Output Module\mediagallery\resources\flashgallery\loading.swf
+20160908T01:28:59Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\Bridge CS6 Extensions\Adobe Output Module\mediagallery\resources\flashgallery\playerProductInstall.swf
+20160908T01:29:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\CS6ServiceManager\extensions\Adobe Mini Bridge CS6\MiniFP.swf
+20160908T01:29:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\CS6ServiceManager\extensions\Adobe NPS Panel 1.0\Sonar.swf
+20160908T01:29:09Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\CS6ServiceManager\extensions\com.adobe.bccsdialog\BCCSDialog.swf
+20160908T01:29:11Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\CS6ServiceManager\extensions\CSS3MobilePack\CSSProperties.swf
+20160908T01:29:11Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\CS6ServiceManager\extensions\CSS3MobilePack\jQuery.swf
+20160908T01:29:12Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\CS6ServiceManager\extensions\FolioBuilderBundle\DMPArticlePanel.swf
+20160908T01:29:15Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\CS6ServiceManager\extensions\KulerPanelBundle\kuler.swf
+20160908T01:29:16Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\CS6ServiceManager\extensions\KulerPanelBundle\kulerHelper.swf
+20160908T01:29:16Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\CS6ServiceManager\extensions\OverlayCreator\FilePreview.swf
+20160908T01:29:19Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\CS6ServiceManager\extensions\OverlayCreator\OverlayCreator.swf
+20160908T01:29:21Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\CS6ServiceManager\extensions\SearchForHelp\HelpTerm.swf
+20160908T01:29:21Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\CS6ServiceManager\extensions\ToolhintsBundle\Tool Hints.swf
+20160908T01:29:22Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\CS6ServiceManager\StageManager\Debug\StageManager-3.0.swf
+20160908T01:29:24Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\CS6ServiceManager\StageManager\Release\StageManager-3.0.swf
+20160908T01:30:19Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\PDAppFlex.swf
+20160908T01:30:22Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\CCM\CCMFlex.swf
+20160908T01:30:30Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\core\PDAppFlex.swf
+20160908T01:30:33Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\D6\D6Flex.swf
+20160908T01:30:49Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\DWA\AdobeIDFlex.swf
+20160908T01:30:50Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\DWA\DWAFlex.swf
+20160908T01:30:52Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\DWA\assets\fonts_clean.swf
+20160908T01:30:53Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\DWA\assets\fonts_system.swf
+20160908T01:30:55Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\LWA\AdobeIDFlex.swf
+20160908T01:30:59Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\LWA\PWAFlex.swf
+20160908T01:31:01Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\LWA\assets\fonts_clean.swf
+20160908T01:31:02Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\LWA\assets\fonts_system.swf
+20160908T01:31:08Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\P6\P6Flex.swf
+20160908T01:31:16Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\P7\P7Flex.swf
+20160908T01:31:27Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\UWAFlex.swf
+20160908T01:31:55Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\XMP\Custom File Info Panels\4.0\bin\FileInfoFoundation.swf
+20160908T01:31:55Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\XMP\Custom File Info Panels\4.0\bin\FileInfoUI.swf
+20160908T01:31:55Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\XMP\Custom File Info Panels\4.0\bin\framework.swf
+20160908T01:31:57Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\XMP\Custom File Info Panels\4.0\panels\advanced\bin\advanced.swf
+20160908T01:31:57Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\XMP\Custom File Info Panels\4.0\panels\audioData\bin\audioData.swf
+20160908T01:31:58Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\XMP\Custom File Info Panels\4.0\panels\camera\bin\camera.swf
+20160908T01:31:58Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\XMP\Custom File Info Panels\4.0\panels\categories\bin\categories.swf
+20160908T01:31:58Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\XMP\Custom File Info Panels\4.0\panels\description\bin\description.swf
+20160908T01:31:58Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\XMP\Custom File Info Panels\4.0\panels\dicom\bin\dicom.swf
+20160908T01:31:59Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\XMP\Custom File Info Panels\4.0\panels\gpsData\bin\gpsData.swf
+20160908T01:31:59Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\XMP\Custom File Info Panels\4.0\panels\history\bin\history.swf
+20160908T01:31:59Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\XMP\Custom File Info Panels\4.0\panels\IPTC\bin\iptc.swf
+20160908T01:32:00Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\XMP\Custom File Info Panels\4.0\panels\IPTCExt\bin\iptcExt.swf
+20160908T01:32:00Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\XMP\Custom File Info Panels\4.0\panels\mobile\bin\mobile.swf
+20160908T01:32:00Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\XMP\Custom File Info Panels\4.0\panels\origin\bin\origin.swf
+20160908T01:32:01Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\XMP\Custom File Info Panels\4.0\panels\rawpacket\bin\rawpacket.swf
+20160908T01:32:01Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe\XMP\Custom File Info Panels\4.0\panels\videoData\bin\videoData.swf
+20160908T01:32:01Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Adobe AIR Application Installer.swf
+20160908T01:32:04Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\setup.swf
+20160908T01:32:05Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Common Files\Adobe AIR\Versions\1.0\Resources\stylesNative.swf
+20160908T01:46:19Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Finale NotePad 2012\Help Files\Content\Videos\NPSetupWin.swf
+20160908T01:46:20Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Finale NotePad 2012\Help Files\Content\Videos\Tut9-1PercM.swf
+20160908T01:46:20Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Finale NotePad 2012\Help Files\Content\Videos\Tut9-1PercW.swf
+20160908T02:16:34Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Microsoft Visual Studio 14.0\PreEmptive Solutions\Dotfuscator and Analytics Community Edition\help\flash\expressinstall.swf
+20160908T02:23:45Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Real\RealPlayer\flvplay.swf
+20160908T02:23:55Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Real\RealPlayer\Flash\albumart.swf
+20160908T02:23:56Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\Real\RealPlayer\Flash\trimmerplayback.swf
+20160908T02:37:58Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\HTML\DynamicSwfObject\ExpressShow\basic\expressInstall.swf
+20160908T02:37:59Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\HTML\DynamicSwfObject\ExpressShow\flv\basic\expressInstall.swf
+20160908T02:37:59Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\HTML\DynamicSwfObject\ExpressShow\scorm04\resources\expressInstall.swf
+20160908T02:37:59Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\HTML\DynamicSwfObject\ExpressShow\scorm12\resources\expressInstall.swf
+20160908T02:38:00Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\HTML\DynamicSwfObject\JingLike\ext\basic\expressInstall.swf
+20160908T02:38:00Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\HTML\ExpressShow\basic\expressInstall.swf
+20160908T02:38:01Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\HTML\ExpressShow\flv\basic\expressInstall.swf
+20160908T02:38:01Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\HTML\ExpressShow\scorm04\resources\expressInstall.swf
+20160908T02:38:01Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\HTML\ExpressShow\scorm12\resources\expressInstall.swf
+20160908T02:38:02Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\HTML\JingLike\ext\basic\expressInstall.swf
+20160908T02:38:02Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\HTML\SmartPlayer\basic\playerProductInstall.swf
+20160908T02:38:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\HTML\SmartPlayer\scorm04\playerProductInstall.swf
+20160908T02:38:03Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\HTML\SmartPlayer\scorm12\playerProductInstall.swf
+20160908T02:38:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Swf\camtasia_swf_preview.swf
+20160908T02:38:07Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Swf\cs_overlay.swf
+20160908T02:38:10Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Swf\tscplayer.swf
+20160908T02:38:11Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Swf\_preload.swf
+20160908T02:38:11Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Swf\Preloaders\fp7_azul_preloader.swf
+20160908T02:38:11Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Swf\Preloaders\fp7_black_outline_preloader.swf
+20160908T02:38:11Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Swf\Preloaders\fp7_black_preloader.swf
+20160908T02:38:11Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Swf\Preloaders\fp7_blue_preloader.swf
+20160908T02:38:11Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Swf\Preloaders\fp7_branded_large_preloader.swf
+20160908T02:38:11Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Swf\Preloaders\fp7_branded_small_preloader.swf
+20160908T02:38:11Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Swf\Preloaders\fp7_gray_grad_preloader.swf
+20160908T02:38:11Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Swf\Preloaders\fp7_white_preloader.swf
+20160908T02:38:11Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Swf\Preloaders\fp8_azul_preloader.swf
+20160908T02:38:11Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Swf\Preloaders\fp8_black_outline_preloader.swf
+20160908T02:38:11Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Swf\Preloaders\fp8_black_preloader.swf
+20160908T02:38:11Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Swf\Preloaders\fp8_blue_preloader.swf
+20160908T02:38:11Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Swf\Preloaders\fp8_branded_large_preloader.swf
+20160908T02:38:11Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Swf\Preloaders\fp8_branded_small_preloader.swf
+20160908T02:38:11Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Swf\Preloaders\fp8_gray_grad_preloader.swf
+20160908T02:38:11Z Host.Local LOKI: Scanning decompressed SWF file C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Swf\Preloaders\fp8_white_preloader.swf
+20160908T04:33:19Z Host.Local LOKI: Yara Rule MATCH: iexplore_ANOMALY TYPE: UNKNOWN DESCRIPTION: Abnormal iexplore.exe - typical strings not found in file FILE: C:\Windows\WinSxS\amd64_microsoft-windows-i..etexplorer-optional_31bf3856ad364e35_11.0.9600.17842_none_9c41dd1890e64bff\iexplore.exe FIRST_BYTES: 444348011146802500000b00 / DCHF% MD5: a7d756002d055b75e2c2dca24c5905cd SHA1: 611f496542524cb153d532c52f8190b0ca64fa21 SHA256: 3a68e1b71ee3c107e77b1dcf1e51d1797d87efd630fc4fc610dc0eee74e498eb MATCHES: 
+20160908T04:33:19Z Host.Local LOKI: Yara Rule MATCH: iexplore_ANOMALY TYPE: UNKNOWN DESCRIPTION: Abnormal iexplore.exe - typical strings not found in file FILE: C:\Windows\WinSxS\amd64_microsoft-windows-i..etexplorer-optional_31bf3856ad364e35_11.0.9600.17937_none_9c359afa90efcebe\iexplore.exe FIRST_BYTES: 444348018546802500000b00 / DCHF% MD5: 3827ded7907482d1da82133af4ac6302 SHA1: ee1f7b01e8dcb677eecf8bb5f806a04c947ef5e7 SHA256: b92ac5b18727b75dbcfcb5b0b618b4b20db973e8f6329f4c4b50d1cf94d6e30d MATCHES: 
+20160908T04:52:42Z Host.Local LOKI: Yara Rule MATCH: Suspicious_Size_taskhost_exe TYPE: EXE DESCRIPTION: Detects uncommon file size of taskhost.exe FILE: C:\Windows\WinSxS\amd64_microsoft-windows-taskhost_31bf3856ad364e35_6.3.9600.17415_none_1949a3402e134bf5\taskhost.exe FIRST_BYTES: 4d5a90000300000004000000ffff0000b8000000 / MZ MD5: 7016acd1d0c1cc6acf45cbc6c90d0575 SHA1: 5647c86f30318b232b3819ded08fc5a9a171e0d9 SHA256: b79e0890e5acffe7966bb32a6aaa415d6e334d0df5452debe6a867bb03451ea6 MATCHES: 
+20160908T05:22:29Z Host.Local LOKI: Yara Rule MATCH: iexplore_ANOMALY TYPE: UNKNOWN DESCRIPTION: Abnormal iexplore.exe - typical strings not found in file FILE: C:\Windows\WinSxS\wow64_microsoft-windows-i..etexplorer-optional_31bf3856ad364e35_11.0.9600.17842_none_a696876ac5470dfa\iexplore.exe FIRST_BYTES: 444348018546802500000b00 / DCHF% MD5: 3827ded7907482d1da82133af4ac6302 SHA1: ee1f7b01e8dcb677eecf8bb5f806a04c947ef5e7 SHA256: b92ac5b18727b75dbcfcb5b0b618b4b20db973e8f6329f4c4b50d1cf94d6e30d MATCHES: 
+20160908T05:22:29Z Host.Local LOKI: Yara Rule MATCH: iexplore_ANOMALY TYPE: UNKNOWN DESCRIPTION: Abnormal iexplore.exe - typical strings not found in file FILE: C:\Windows\WinSxS\wow64_microsoft-windows-i..etexplorer-optional_31bf3856ad364e35_11.0.9600.17937_none_a68a454cc55090b9\iexplore.exe FIRST_BYTES: 444348018546802500000b00 / DCHF% MD5: 3827ded7907482d1da82133af4ac6302 SHA1: ee1f7b01e8dcb677eecf8bb5f806a04c947ef5e7 SHA256: b92ac5b18727b75dbcfcb5b0b618b4b20db973e8f6329f4c4b50d1cf94d6e30d MATCHES: 
+20160908T05:48:46Z Host.Local LOKI: Indicators detected!
+20160908T05:48:46Z Host.Local LOKI: Loki recommends checking the elements on Virustotal.com or Google and triage with a professional triage tool like THOR APT Scanner in corporate networks.
+20160908T05:48:46Z Host.Local LOKI: Finished LOKI Scan SYSTEM: Host.Local TIME: 20160908T05:48:46Z

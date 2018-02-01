@@ -1,0 +1,7 @@
+﻿<style>
+BODY{background-color:#99ccff;}
+TABLE{border-width: 1px;border-style: solid;border-color: black;border-collapse: collapse;}
+TH{border-width: 3px;padding: 2px;border-style: solid;border-color: black;background-color:gold}
+TD{border-width: 3px;padding: 2px;border-style: solid;border-color: black;background-color: #cac3c2;}
+TD:hover{background-color: #dde0e0;}
+</style>
