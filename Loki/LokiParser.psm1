@@ -45,7 +45,7 @@ Port =        $Matches[6]
 
 $ListeningProcessSet += $(New-Object PSObject -Property $MatchProps)}}
 
-$YaraMatchSet | ConvertTo-Html -Head $(Get-Content styles.css) -body "<h4>Loki Report (YARA Matches) - Generated on $(Get-Date) by $env:USERNAME</h4>" | Out-File .\Loki_YARA_Matches.html 
-$ListeningProcessSet | ConvertTo-Html -Head $(Get-Content styles.css) -body "<h4>Loki Report (Listening Processes) - Generated on $(Get-Date) by $env:USERNAME</h4>" | Out-File .\Loki_Listening.html 
+$YaraMatchSet | ConvertTo-Html -Head $(Get-Content '.\style\styles.css' -Verbose) -body "<h4>Loki Report (YARA Matches) - Generated on $(Get-Date) by $env:USERNAME</h4>" | Out-File .\Loki_YARA_Matches.html 
+$ListeningProcessSet | ConvertTo-Html -Head $(Get-Content '.\style\styles.css') -body "<h4>Loki Report (Listening Processes) - Generated on $(Get-Date) by $env:USERNAME</h4>" | Out-File .\Loki_Listening.html 
 }
 Export-ModuleMember *
